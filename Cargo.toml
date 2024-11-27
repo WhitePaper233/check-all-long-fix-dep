@@ -1,0 +1,19 @@
+[package]
+name = "kovi-plugin-check-alllong"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+kovi = ">=0.8.4"
+ort = "=2.0.0-rc.9"
+ndarray = "0.16"
+tracing-subscriber = { version = "0.3", default-features = false, features = [
+    "env-filter",
+    "fmt",
+] }
+image = "0.25"
+raqote = { version = "0.8", default-features = false }
+ureq = "2.1"
+tracing = "0.1"
+reqwest = "0.12"
+serde = "1.0.210"
