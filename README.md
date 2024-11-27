@@ -6,6 +6,12 @@
 
 ## 配置
 
+使用此命令添加进你的 kovi 项目
+
+```bash
+cargo add --git https://github.com/Threkork/kovi-plugin-check-alllong.git kovi-plugin-check-alllong
+```
+
 启动一次后，可在 `./data/kovi-plugin-check-alllong` 里配置文件。
 
 默认配置就挺好的。
